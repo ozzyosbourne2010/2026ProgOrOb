@@ -1,17 +1,17 @@
-print('BOMBA EEE 1 = sim 0 = nao alem dos numeros obvio')
+print('BOMBA YIPEEEE 1 = sim 0 = nao alem dos numeros obvio')
 pilhas = input('Quantas pilhas?:')
 
-serie = input('Insira o número de série:')
+serie = input('Insira o número de série:') 
 serie = list(serie)
 serienum = []
 serienump = 0
 for i in serie:
     if i.isdigit():
         serienum.append(i)
-seriepar = 0
+seriev = 0
 for i in serie:
     if i in 'AEIOUaeiou':
-        seriepar = 1
+        seriev = 1
 if int(serienum[-1]) / 2 == int(serienum[-1]) // 2:
     serienump = 1
 
